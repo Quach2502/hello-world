@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="136A.cpp" />
     <ClCompile Include="148A.cpp" />
     <ClCompile Include="236A.cpp" />
     <ClCompile Include="144A.cpp" />
@@ -117,8 +118,13 @@
     <ClCompile Include="158B.cpp" />
     <ClCompile Include="160A.cpp" />
     <ClCompile Include="1Acpp.cpp" />
+    <ClCompile Include="337A.cpp" />
+    <ClCompile Include="443A.cpp" />
     <ClCompile Include="50A.cpp" />
+    <ClCompile Include="510A.cpp" />
+    <ClCompile Include="580A.cpp" />
     <ClCompile Include="716A.cpp" />
+    <ClCompile Include="719A.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
