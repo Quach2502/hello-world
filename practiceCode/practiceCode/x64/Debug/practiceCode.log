@@ -1,2 +1,32 @@
-﻿  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
-  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
+﻿Build started 10/13/2016 12:06:23 AM.
+     1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
+     1>ClCompile:
+         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt 492B.cpp
+         492B.cpp
+       Link:
+         D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\136A.obj
+         x64\Debug\148A.obj
+         x64\Debug\230A.obj
+         x64\Debug\236A.obj
+         x64\Debug\144A.obj
+         x64\Debug\158A.obj
+         x64\Debug\158B.obj
+         x64\Debug\160A.obj
+         x64\Debug\1Acpp.obj
+         x64\Debug\337A.obj
+         x64\Debug\443A.obj
+         x64\Debug\492B.obj
+         x64\Debug\500A.obj
+         x64\Debug\509A.obj
+         x64\Debug\50A.obj
+         x64\Debug\510A.obj
+         x64\Debug\580A.obj
+         x64\Debug\716A.obj
+         x64\Debug\719A.obj
+         practiceCode.vcxproj -> C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe
+     1>Done Building Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.99
