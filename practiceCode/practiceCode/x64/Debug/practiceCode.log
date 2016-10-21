@@ -1,3 +1,4 @@
-﻿  189A.cpp
+﻿  B679.cpp
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b679.cpp(22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
