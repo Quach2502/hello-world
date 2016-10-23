@@ -1,32 +1,51 @@
-﻿Build started 10/13/2016 12:06:23 AM.
+﻿Build started 10/24/2016 12:41:35 AM.
      1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
      1>ClCompile:
-         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt 492B.cpp
-         492B.cpp
+         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt B313.cpp
+         B313.cpp
        Link:
-         D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\136A.obj
-         x64\Debug\148A.obj
-         x64\Debug\230A.obj
-         x64\Debug\236A.obj
-         x64\Debug\144A.obj
-         x64\Debug\158A.obj
-         x64\Debug\158B.obj
-         x64\Debug\160A.obj
-         x64\Debug\1Acpp.obj
-         x64\Debug\337A.obj
-         x64\Debug\443A.obj
-         x64\Debug\492B.obj
-         x64\Debug\500A.obj
-         x64\Debug\509A.obj
-         x64\Debug\50A.obj
-         x64\Debug\510A.obj
-         x64\Debug\580A.obj
-         x64\Debug\716A.obj
-         x64\Debug\719A.obj
+         D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\A136.obj
+         x64\Debug\A148.obj
+         x64\Debug\A189.obj
+         x64\Debug\A214.obj
+         x64\Debug\A230.obj
+         x64\Debug\A236.obj
+         x64\Debug\A144.obj
+         x64\Debug\A158.obj
+         x64\Debug\A499.obj
+         x64\Debug\A591.obj
+         x64\Debug\A598.obj
+         x64\Debug\B158.obj
+         x64\Debug\A160.obj
+         x64\Debug\A1.obj
+         x64\Debug\A25.obj
+         x64\Debug\B266.obj
+         x64\Debug\A337.obj
+         x64\Debug\A405.obj
+         x64\Debug\A432.obj
+         x64\Debug\A439.obj
+         x64\Debug\A443.obj
+         x64\Debug\A490.obj
+         x64\Debug\B313.obj
+         x64\Debug\B467.obj
+         x64\Debug\B474.obj
+         x64\Debug\B492.obj
+         x64\Debug\A500.obj
+         x64\Debug\A509.obj
+         x64\Debug\A50.obj
+         x64\Debug\A510.obj
+         x64\Debug\A519.obj
+         x64\Debug\A520.obj
+         x64\Debug\A556.obj
+         x64\Debug\A580.obj
+         x64\Debug\A716.obj
+         x64\Debug\A719.obj
+         x64\Debug\B679.obj
+         x64\Debug\template.obj
          practiceCode.vcxproj -> C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe
      1>Done Building Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.99
+Time Elapsed 00:00:03.31
