@@ -5,15 +5,16 @@
 //typedef long long ll;
 //void main()
 //{
-//	int number(0);
+//std::unordered_map<std::string, std::string> dict;
+//	ll number(0);
 //	int max = 1;
-//	std::vector<int> input;
+//	std::vector<ll> input;
 //	int output;
 //	std::cin >> number;
 //	bool flag = true;
 //	for (int i = 0; i < number; i++)
 //	{
-//		int a;
+//		ll a;
 //		std::cin >> a;
 //		input.push_back(a);
 //	}

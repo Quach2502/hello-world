@@ -127,6 +127,7 @@
     <ClCompile Include="A1.cpp" />
     <ClCompile Include="A25.cpp" />
     <ClCompile Include="B200.cpp" />
+    <ClCompile Include="B230.cpp" />
     <ClCompile Include="B266.cpp" />
     <ClCompile Include="A337.cpp" />
     <ClCompile Include="A405.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="A580.cpp" />
     <ClCompile Include="A716.cpp" />
     <ClCompile Include="A719.cpp" />
+    <ClCompile Include="B499.cpp" />
     <ClCompile Include="B519.cpp" />
     <ClCompile Include="B679.cpp" />
     <ClCompile Include="template.cpp" />
