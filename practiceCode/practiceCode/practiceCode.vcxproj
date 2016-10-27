@@ -155,6 +155,9 @@
     <ClCompile Include="B499.cpp" />
     <ClCompile Include="B519.cpp" />
     <ClCompile Include="B679.cpp" />
+    <ClCompile Include="C489.cpp" />
+    <ClCompile Include="C499.cpp" />
+    <ClCompile Include="C515.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
