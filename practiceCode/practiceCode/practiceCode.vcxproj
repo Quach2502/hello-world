@@ -136,6 +136,7 @@
     <ClCompile Include="A443.cpp" />
     <ClCompile Include="A490.cpp" />
     <ClCompile Include="B313.cpp" />
+    <ClCompile Include="B34.cpp" />
     <ClCompile Include="B459.cpp" />
     <ClCompile Include="B467.cpp" />
     <ClCompile Include="B474.cpp" />
@@ -158,6 +159,7 @@
     <ClCompile Include="C489.cpp" />
     <ClCompile Include="C499.cpp" />
     <ClCompile Include="C515.cpp" />
+    <ClCompile Include="C519.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
