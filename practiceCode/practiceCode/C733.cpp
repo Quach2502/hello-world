@@ -10,29 +10,15 @@ typedef std::vector<ll>::const_iterator vec_iter;
 void path(vec_iter first, vec_iter last,ll comp)
 {
 	std::vector<ll> newVec(first,last);
-	while(newVec.size()!=1)
+	ll pos = std::max_element(newVec.begin(),newVec.end()) - newVec.begin();
+	ll temp = pos;
+	while(pos>0)
 	{
-		ll cur(0);
-		while(cur<newVec.size()-1)
-		{
-			if(newVec[cur] == newVec[cur+1])
-				cur++;
-			else
-				break;
-		}
-		if(newVec[cur] > newVec[cur+1])
-			{
-				std::cout<<cur+1+comp<<" R\n";
-				newVec[cur]+= newVec[cur+1];
-				newVec.erase(newVec.begin()+cur+1);
-		}	
-		else
-			{
-				std::cout<<cur+2+comp<<" L\n";
-				newVec[cur+1]+= newVec[cur];
-				newVec.erase(newVec.begin()+cur);
-		}	 
+		std::cout<<pos+1<<" L\n";
+		pos--;
 	}
+	for(int i = 0;i<newVec.size()-1-temp;i++)
+		std::cout<<"1 R\n";
 }
 void main()
 {
@@ -96,9 +82,10 @@ void main()
 		{
 			std::cout<<"YES\n";
 			for(int x = 0 ;x < k;x++)
-				path(before.begin()+print[x].first,before.begin()+print[x].second,x);
+			{
+				path(before.begin()+print[x].first,before.begin()+print[x].second+1,x);
+			}
 		}	
 	else
 		std::cout<<"NO";
-	system("pause");
 }
