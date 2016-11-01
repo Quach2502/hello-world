@@ -195,7 +195,16 @@
     <ClCompile Include="B733.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C733.cpp">
+    <ClCompile Include="C733NOTCOMPLETE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A732.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B732.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C732.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

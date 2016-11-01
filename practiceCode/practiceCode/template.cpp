@@ -8,6 +8,7 @@
 //typedef long long ll;
 //void main()
 //{
+//	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
 //	ll number(0);
 //	int max = 1;
