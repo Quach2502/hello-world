@@ -207,5 +207,17 @@
     <ClCompile Include="C732.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="A721.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B721.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C721NOTCOMPLETE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D721NOTCOMPLETE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

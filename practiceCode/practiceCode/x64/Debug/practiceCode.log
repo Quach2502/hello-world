@@ -1,5 +1,4 @@
-﻿  C732.cpp
-c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\c732.cpp(31): warning C4101: 'cur': unreferenced local variable
+﻿  D721.cpp
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
