@@ -1,4 +1,13 @@
-﻿  D721.cpp
+﻿  B711.cpp
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(76): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(96): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(130): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(144): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(160): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(177): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\myproject\hello-world\practicecode\practicecode\b711.cpp(19): warning C4101: 'output': unreferenced local variable
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
   practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
