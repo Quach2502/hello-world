@@ -261,5 +261,23 @@
     <ClCompile Include="I101149.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="A712.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B712.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C712.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A707.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B707.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C707.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
