@@ -10,20 +10,19 @@
 //{
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
-//	ll number(0);
+//	ll n(0);std::cin>>n;
 //	int max = 1;
 //	std::vector<ll> input;
 //	int output;
-//	std::cin >> number;
 //	bool flag = true;
-//	for (int i = 0; i < number; i++)
+//	for (int i = 0; i < n; i++)
 //	{
 //		ll a;
 //		std::cin >> a;
 //		input.push_back(a);
 //	}
 //	std::sort(input.begin(), input.end());
-//	for (int i = 0; i < number; i++)
+//	for (int i = 0; i < n; i++)
 //	{
 //		std::cout << input[i] << " ";
 //	}
