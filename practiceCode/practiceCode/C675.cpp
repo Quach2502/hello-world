@@ -13,8 +13,8 @@
 //	int count(0);
 //	std::unordered_map<std::string, std::string> dict;
 //	ll n(0);std::cin>>n;
-//	std::vector<int> preS;
-//	int max = 0;
+//	std::vector<ll> preS;
+//	int max = 1;
 //	int cur(1);
 //	int output;
 //	bool flag = true;
@@ -30,7 +30,7 @@
 //			preS.push_back(input[i]);
 //		else
 //		{
-//			int sum = preS[i - 1] + input[i];
+//			ll sum = preS[i - 1] + input[i];
 //			preS.push_back(sum);
 //		}
 //	}
