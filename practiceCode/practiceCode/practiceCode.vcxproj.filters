@@ -306,10 +306,19 @@
     <ClCompile Include="B675.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D675.cpp">
+    <ClCompile Include="C675.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C675.cpp">
+    <ClCompile Include="A706.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D675NOTCOMPLETE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B706.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C706.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
