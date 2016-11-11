@@ -327,7 +327,13 @@
     <ClCompile Include="B677.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C677.cpp">
+    <ClCompile Include="A682.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B682.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C682.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
