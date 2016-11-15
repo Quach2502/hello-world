@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A101149.cpp" />
+    <ClCompile Include="A625.cpp" />
     <ClCompile Include="A631.cpp" />
     <ClCompile Include="A659.cpp" />
     <ClCompile Include="A675.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="B545.cpp" />
     <ClCompile Include="B580.cpp" />
     <ClCompile Include="B581.cpp" />
+    <ClCompile Include="B625.cpp" />
     <ClCompile Include="B631.cpp" />
     <ClCompile Include="B659.cpp" />
     <ClCompile Include="B675.cpp" />
