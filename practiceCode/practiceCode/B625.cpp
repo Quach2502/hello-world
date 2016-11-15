@@ -14,12 +14,11 @@ void main()
 	std::getline(std::cin, g); 
 	std::getline(std::cin, a);
 	int max = 1;
-	std::vector<ll> input;
 	int output(0);
 	int current(0);
 	for (int i = 0; i < g.length(); i++)
 	{
-		if (input[i] != a[current])
+		if (g[i] != a[current])
 		{
 			current = 0;
 		}

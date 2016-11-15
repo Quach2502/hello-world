@@ -1,21 +1,3 @@
-﻿  C703NOTCOMPLETE.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C703NOTCOMPLETE.cpp': No such file or directory
-  C697NOTCOMPLETE.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C697NOTCOMPLETE.cpp': No such file or directory
-  C686.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C686.cpp': No such file or directory
-  C682NOTCOMPLETE.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C682NOTCOMPLETE.cpp': No such file or directory
-  B703.cpp
-c1xx : fatal error C1083: Cannot open source file: 'B703.cpp': No such file or directory
-  B697.cpp
-c1xx : fatal error C1083: Cannot open source file: 'B697.cpp': No such file or directory
-  B686.cpp
-c1xx : fatal error C1083: Cannot open source file: 'B686.cpp': No such file or directory
-  A703.cpp
-c1xx : fatal error C1083: Cannot open source file: 'A703.cpp': No such file or directory
-  A697.cpp
-c1xx : fatal error C1083: Cannot open source file: 'A697.cpp': No such file or directory
-  A686.cpp
-c1xx : fatal error C1083: Cannot open source file: 'A686.cpp': No such file or directory
-  Generating Code...
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
+  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
