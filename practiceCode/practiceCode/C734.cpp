@@ -9,22 +9,52 @@ typedef long long ll;
 void main()
 {
 	std::ios::sync_with_stdio(false);
-	std::unordered_map<std::string, std::string> dict;
 	ll n(0),m,k,x,s;std::cin>>n>>m>>k>>x>>s;
-	int max = 1;
-	std::vector<ll> input;
-	int output;
+	std::vector<int> spellFirstE; std::vector<int> spellFirstC; std::vector<int> spellSecondE; std::vector<int> spellSecondC;
+	int output = n*x;
 	bool flag = true;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < m; i++)
 	{
-		ll a;
+		int a;
 		std::cin >> a;
-		input.push_back(a);
+		spellFirstE.push_back(a);
 	}
-	std::sort(input.begin(), input.end());
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < m; i++)
 	{
-		std::cout << input[i] << " ";
+		int a;
+		std::cin >> a;
+		spellFirstC.push_back(a);
 	}
-  system("pause");
+	for (int i = 0; i < k; i++)
+	{
+		int a;
+		std::cin >> a;
+		spellSecondE.push_back(a);
+	}
+	for (int i = 0; i <k; i++)
+	{
+		int a;
+		std::cin >> a;
+		spellSecondC.push_back(a);
+	}
+	for (int i = 0; i < m; i++)
+	{
+		int sample = s - spellFirstC[i];
+		if (sample < 0)
+			sample = s;
+		if (sample < spellSecondC[0])
+			continue;
+		else
+		{
+			int result(0);
+			auto use = std::lower_bound(spellSecondC.begin(), spellSecondC.end(), sample) - spellSecondC.begin();
+			if(s > spellFirstC[i])
+				result = (n - spellSecondE[use]) * (spellFirstE[i]);
+			else
+				result = (n - spellSecondE[use]) * x;
+			output = std::min(output, result);
+			std::cout << output << " "<<i<<" "<<use<<'\n';
+		}
+	}
+	std::cout << output;
 }
