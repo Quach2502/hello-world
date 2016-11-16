@@ -11,7 +11,7 @@ void main()
 	std::ios::sync_with_stdio(false);
 	ll n(0),m,k,x,s;std::cin>>n>>m>>k>>x>>s;
 	std::vector<int> spellFirstE; std::vector<int> spellFirstC; std::vector<int> spellSecondE; std::vector<int> spellSecondC;
-	int output = n*x;
+	ll output = n*x;
 	bool flag = true;
 	for (int i = 0; i < m; i++)
 	{
@@ -43,17 +43,25 @@ void main()
 		if (sample < 0)
 			sample = s;
 		if (sample < spellSecondC[0])
-			continue;
+			{
+				if(sample != s)
+					{
+						ll result = n * spellFirstE[i];
+						output = std::min(output,result);
+					}
+				else
+					continue; 
+			}
+
 		else
 		{
-			int result(0);
-			auto use = std::lower_bound(spellSecondC.begin(), spellSecondC.end(), sample) - spellSecondC.begin();
+			ll result(0);
+			auto use = std::lower_bound(spellSecondC.begin(), spellSecondC.end(), sample) - spellSecondC.begin()-1;
 			if(s > spellFirstC[i])
 				result = (n - spellSecondE[use]) * (spellFirstE[i]);
 			else
 				result = (n - spellSecondE[use]) * x;
 			output = std::min(output, result);
-			std::cout << output << " "<<i<<" "<<use<<'\n';
 		}
 	}
 	std::cout << output;
