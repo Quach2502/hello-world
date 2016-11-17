@@ -348,5 +348,11 @@
     <ClCompile Include="C734.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="A629.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B629.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

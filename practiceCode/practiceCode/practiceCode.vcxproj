@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="A101149.cpp" />
     <ClCompile Include="A625.cpp" />
+    <ClCompile Include="A629.cpp" />
     <ClCompile Include="A631.cpp" />
     <ClCompile Include="A659.cpp" />
     <ClCompile Include="A675.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="B580.cpp" />
     <ClCompile Include="B581.cpp" />
     <ClCompile Include="B625.cpp" />
+    <ClCompile Include="B629.cpp" />
     <ClCompile Include="B631.cpp" />
     <ClCompile Include="B659.cpp" />
     <ClCompile Include="B675.cpp" />
