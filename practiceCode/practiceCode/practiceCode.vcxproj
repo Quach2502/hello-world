@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140_xp</PlatformToolset>
+    <PlatformToolset>v110_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A101149.cpp" />
+    <ClCompile Include="A617.cpp" />
     <ClCompile Include="A625.cpp" />
     <ClCompile Include="A629.cpp" />
     <ClCompile Include="A631.cpp" />
@@ -126,6 +127,7 @@
     <ClCompile Include="A732.cpp" />
     <ClCompile Include="A733.cpp" />
     <ClCompile Include="A734.cpp" />
+    <ClCompile Include="A738.cpp" />
     <ClCompile Include="B101149.cpp" />
     <ClCompile Include="B118.cpp" />
     <ClCompile Include="A136.cpp" />
@@ -177,6 +179,7 @@
     <ClCompile Include="B545.cpp" />
     <ClCompile Include="B580.cpp" />
     <ClCompile Include="B581.cpp" />
+    <ClCompile Include="B617.cpp" />
     <ClCompile Include="B625.cpp" />
     <ClCompile Include="B629.cpp" />
     <ClCompile Include="B631.cpp" />
@@ -195,12 +198,14 @@
     <ClCompile Include="B732.cpp" />
     <ClCompile Include="B733.cpp" />
     <ClCompile Include="B734.cpp" />
+    <ClCompile Include="B738.cpp" />
     <ClCompile Include="C101149.cpp" />
     <ClCompile Include="C479.cpp" />
     <ClCompile Include="C489.cpp" />
     <ClCompile Include="C499.cpp" />
     <ClCompile Include="C515.cpp" />
     <ClCompile Include="C519.cpp" />
+    <ClCompile Include="C617.cpp" />
     <ClCompile Include="C631.cpp" />
     <ClCompile Include="C659.cpp" />
     <ClCompile Include="C675.cpp" />
@@ -221,6 +226,7 @@
     <ClCompile Include="D659.cpp" />
     <ClCompile Include="D721NOTCOMPLETE.cpp" />
     <ClCompile Include="E101149.cpp" />
+    <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
