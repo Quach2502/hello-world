@@ -372,5 +372,17 @@
     <ClCompile Include="B738.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C738.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A621.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B621.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C621.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
