@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A101149.cpp" />
+    <ClCompile Include="A615.cpp" />
     <ClCompile Include="A617.cpp" />
     <ClCompile Include="A621.cpp" />
     <ClCompile Include="A625.cpp" />
@@ -119,6 +120,7 @@
     <ClCompile Include="A659.cpp" />
     <ClCompile Include="A675.cpp" />
     <ClCompile Include="A677.cpp" />
+    <ClCompile Include="A688.cpp" />
     <ClCompile Include="A706.cpp" />
     <ClCompile Include="A711.cpp" />
     <ClCompile Include="A712.cpp" />
@@ -180,6 +182,7 @@
     <ClCompile Include="B545.cpp" />
     <ClCompile Include="B580.cpp" />
     <ClCompile Include="B581.cpp" />
+    <ClCompile Include="B615.cpp" />
     <ClCompile Include="B617.cpp" />
     <ClCompile Include="B621.cpp" />
     <ClCompile Include="B625.cpp" />
@@ -190,6 +193,7 @@
     <ClCompile Include="B677.cpp" />
     <ClCompile Include="B679.cpp" />
     <ClCompile Include="B682.cpp" />
+    <ClCompile Include="B688.cpp" />
     <ClCompile Include="B706.cpp" />
     <ClCompile Include="B707.cpp" />
     <ClCompile Include="B711.cpp" />
@@ -216,6 +220,7 @@
     <ClCompile Include="C706.cpp" />
     <ClCompile Include="C734.cpp" />
     <ClCompile Include="C738.cpp" />
+    <ClCompile Include="C740.cpp" />
     <ClCompile Include="D675NOTCOMPLETE.cpp" />
     <ClCompile Include="C707.cpp" />
     <ClCompile Include="C711.cpp" />
