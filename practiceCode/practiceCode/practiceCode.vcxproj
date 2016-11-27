@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140_xp</PlatformToolset>
+    <PlatformToolset>v110_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -129,6 +129,8 @@
     <ClCompile Include="A733.cpp" />
     <ClCompile Include="A734.cpp" />
     <ClCompile Include="A738.cpp" />
+    <ClCompile Include="A740.cpp" />
+    <ClCompile Include="A735.cpp" />
     <ClCompile Include="B101149.cpp" />
     <ClCompile Include="B118.cpp" />
     <ClCompile Include="A136.cpp" />
@@ -176,6 +178,7 @@
     <ClCompile Include="A719.cpp" />
     <ClCompile Include="B499.cpp" />
     <ClCompile Include="B508.cpp" />
+    <ClCompile Include="B509.cpp" />
     <ClCompile Include="B519.cpp" />
     <ClCompile Include="B545.cpp" />
     <ClCompile Include="B580.cpp" />
@@ -200,7 +203,9 @@
     <ClCompile Include="B732.cpp" />
     <ClCompile Include="B733.cpp" />
     <ClCompile Include="B734.cpp" />
+    <ClCompile Include="B735.cpp" />
     <ClCompile Include="B738.cpp" />
+    <ClCompile Include="B740.cpp" />
     <ClCompile Include="C101149.cpp" />
     <ClCompile Include="C479.cpp" />
     <ClCompile Include="C489.cpp" />
@@ -215,7 +220,9 @@
     <ClCompile Include="A682.cpp" />
     <ClCompile Include="C706.cpp" />
     <ClCompile Include="C734.cpp" />
+    <ClCompile Include="C735.cpp" />
     <ClCompile Include="C738.cpp" />
+    <ClCompile Include="C740.cpp" />
     <ClCompile Include="D675NOTCOMPLETE.cpp" />
     <ClCompile Include="C707.cpp" />
     <ClCompile Include="C711.cpp" />
@@ -232,6 +239,7 @@
     <ClCompile Include="E101149.cpp" />
     <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
+    <ClCompile Include="RMQ.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
