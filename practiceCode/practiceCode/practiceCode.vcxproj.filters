@@ -384,6 +384,7 @@
     <ClCompile Include="C621.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="A740.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -406,6 +407,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C735.cpp">
+=======
+    <ClCompile Include="C740.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A615.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B615.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A688.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B688.cpp">
+>>>>>>> 80dae92281fc3b021f53e2b6dc509778976134a3
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

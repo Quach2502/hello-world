@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Build started 11/24/2016 1:03:00 AM.
      1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
@@ -143,3 +144,17 @@
 Build succeeded.
 
 Time Elapsed 00:00:10.28
+=======
+﻿  C740.cpp
+  C738.cpp
+  C621.cpp
+  B621.cpp
+  B615.cpp
+  A688.cpp
+  A621.cpp
+  A615.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.exe
+  practiceCode.vcxproj -> C:\Users\t_quacd\MyProject\hello-world\practiceCode\x64\Debug\practiceCode.pdb (Partial PDB)
+>>>>>>> 80dae92281fc3b021f53e2b6dc509778976134a3
