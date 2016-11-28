@@ -5,58 +5,28 @@
 //#include <string>
 //#include <unordered_map>
 //#include <unordered_set>
-//#include <math.h>
 //typedef long long ll;
-//bool check(ll n)
+//ll cache[1000] = {};
+//ll dp(int n)
 //{
-//	ll a = ll(sqrt(double(n)));
-//	for(ll i=2;i<=a;i++)
-//		{
-//			if(n%i==0) return false;
-//		}
-//	return true;
+//	if (cache[n] != 0) return cache[n];
+//	else
+//	{
+//		cache[n] = dp(n - 1) + dp(n - 2);
+//	}
+//	return cache[n];
 //}
-//
 //void main()
 //{
-//	ll sum(0);
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
 //	ll n(0);std::cin>>n;
-//	if(check(n)) std::cout<<1;
-//	else
+//	cache[1] = 1;
+//	cache[2] = 1;
+//	int i = 1;
+//	while (dp(i) <= n)
 //	{
-//		if(n%2==0) std::cout<<2;
-//		else
-//		{
-//			while(n>1)
-//			{
-//				if(check(n)) 
-//					{
-//						sum++;
-//						break;
-//					}
-//				else
-//				{
-//					if(n==2) 
-//						{
-//							sum++;
-//							break;
-//						}
-//					else
-//					{
-//						ll temp = n-2;
-//						while(!check(temp))
-//							temp --;
-//						sum++;
-//						n -= temp;
-//					}
-//				}
-//			}
-//			if(sum>3) 
-//				std::cout<<3;
-//			else
-//				std::cout<<sum;
-//		}
+//		i++;
 //	}
+//	std::cout << i-1;
 //}

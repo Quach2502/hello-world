@@ -1,428 +1,144 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="template.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A439.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A432.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A405.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A337.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B266.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A236.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A230.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A144.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A136.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A50.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A25.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A148.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A158.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B158.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A160.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A189.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A443.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A490.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B492.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A500.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A509.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A510.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A519.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A520.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A556.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A580.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A716.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A719.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B467.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B474.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B679.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A591.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A214.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A598.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A499.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B313.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B519.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B200.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B489NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B459.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B478.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B118.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B230.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B499.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C499.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C489.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C515.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C519.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B34.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B581.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B368.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C479.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D545.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B508.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B545.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B580.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A733.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B733.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C733NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A732.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B732.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C732.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A721.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B721.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C721NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D721NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A731.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B731.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C731NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A711.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B711.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C711.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A714.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B714.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C714.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A101149.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B101149.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C101149.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="E101149.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="I101149.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A712.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B712.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C712.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A707.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B707.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C707.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A659.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B659.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C659.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D659.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A631.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B631.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C631.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A675.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B675.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C675.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A706.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D675NOTCOMPLETE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B706.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C706.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A677.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B677.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A682.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B682.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A625.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B625.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A734.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B734.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C734.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A629.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B629.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="fun.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A617.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B617.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C617.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A738.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B738.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C738.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A621.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B621.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C621.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="A740.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B740.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C740.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RMQ.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B509.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A735.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B735.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C735.cpp">
-=======
-    <ClCompile Include="C740.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A615.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B615.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A688.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="B688.cpp">
->>>>>>> 80dae92281fc3b021f53e2b6dc509778976134a3
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="A101149.cpp" />
+    <ClCompile Include="A615.cpp" />
+    <ClCompile Include="A617.cpp" />
+    <ClCompile Include="A621.cpp" />
+    <ClCompile Include="A625.cpp" />
+    <ClCompile Include="A629.cpp" />
+    <ClCompile Include="A631.cpp" />
+    <ClCompile Include="A659.cpp" />
+    <ClCompile Include="A675.cpp" />
+    <ClCompile Include="A677.cpp" />
+    <ClCompile Include="A688.cpp" />
+    <ClCompile Include="A706.cpp" />
+    <ClCompile Include="A711.cpp" />
+    <ClCompile Include="A712.cpp" />
+    <ClCompile Include="A714.cpp" />
+    <ClCompile Include="A721.cpp" />
+    <ClCompile Include="A731.cpp" />
+    <ClCompile Include="A732.cpp" />
+    <ClCompile Include="A733.cpp" />
+    <ClCompile Include="A734.cpp" />
+    <ClCompile Include="A738.cpp" />
+    <ClCompile Include="A740.cpp" />
+    <ClCompile Include="A735.cpp" />
+    <ClCompile Include="B101149.cpp" />
+    <ClCompile Include="B118.cpp" />
+    <ClCompile Include="A136.cpp" />
+    <ClCompile Include="A148.cpp" />
+    <ClCompile Include="A189.cpp" />
+    <ClCompile Include="A214.cpp" />
+    <ClCompile Include="A230.cpp" />
+    <ClCompile Include="A236.cpp" />
+    <ClCompile Include="A144.cpp" />
+    <ClCompile Include="A158.cpp" />
+    <ClCompile Include="A499.cpp" />
+    <ClCompile Include="A591.cpp" />
+    <ClCompile Include="A598.cpp" />
+    <ClCompile Include="B158.cpp" />
+    <ClCompile Include="A160.cpp" />
+    <ClCompile Include="A1.cpp" />
+    <ClCompile Include="A25.cpp" />
+    <ClCompile Include="B200.cpp" />
+    <ClCompile Include="B230.cpp" />
+    <ClCompile Include="B266.cpp" />
+    <ClCompile Include="A337.cpp" />
+    <ClCompile Include="A405.cpp" />
+    <ClCompile Include="A432.cpp" />
+    <ClCompile Include="A439.cpp" />
+    <ClCompile Include="A443.cpp" />
+    <ClCompile Include="A490.cpp" />
+    <ClCompile Include="B313.cpp" />
+    <ClCompile Include="B34.cpp" />
+    <ClCompile Include="B368.cpp" />
+    <ClCompile Include="B459.cpp" />
+    <ClCompile Include="B467.cpp" />
+    <ClCompile Include="B474.cpp" />
+    <ClCompile Include="B478.cpp" />
+    <ClCompile Include="B489NOTCOMPLETE.cpp" />
+    <ClCompile Include="B492.cpp" />
+    <ClCompile Include="A500.cpp" />
+    <ClCompile Include="A509.cpp" />
+    <ClCompile Include="A50.cpp" />
+    <ClCompile Include="A510.cpp" />
+    <ClCompile Include="A519.cpp" />
+    <ClCompile Include="A520.cpp" />
+    <ClCompile Include="A556.cpp" />
+    <ClCompile Include="A580.cpp" />
+    <ClCompile Include="A716.cpp" />
+    <ClCompile Include="A719.cpp" />
+    <ClCompile Include="B499.cpp" />
+    <ClCompile Include="B508.cpp" />
+    <ClCompile Include="B509.cpp" />
+    <ClCompile Include="B519.cpp" />
+    <ClCompile Include="B545.cpp" />
+    <ClCompile Include="B580.cpp" />
+    <ClCompile Include="B581.cpp" />
+    <ClCompile Include="B615.cpp" />
+    <ClCompile Include="B617.cpp" />
+    <ClCompile Include="B621.cpp" />
+    <ClCompile Include="B625.cpp" />
+    <ClCompile Include="B629.cpp" />
+    <ClCompile Include="B631.cpp" />
+    <ClCompile Include="B659.cpp" />
+    <ClCompile Include="B675.cpp" />
+    <ClCompile Include="B677.cpp" />
+    <ClCompile Include="B679.cpp" />
+    <ClCompile Include="B682.cpp" />
+    <ClCompile Include="B688.cpp" />
+    <ClCompile Include="B706.cpp" />
+    <ClCompile Include="B707.cpp" />
+    <ClCompile Include="B711.cpp" />
+    <ClCompile Include="B712.cpp" />
+    <ClCompile Include="B714.cpp" />
+    <ClCompile Include="B721.cpp" />
+    <ClCompile Include="B731.cpp" />
+    <ClCompile Include="B732.cpp" />
+    <ClCompile Include="B733.cpp" />
+    <ClCompile Include="B734.cpp" />
+    <ClCompile Include="B735.cpp" />
+    <ClCompile Include="B738.cpp" />
+    <ClCompile Include="B740.cpp" />
+    <ClCompile Include="C101149.cpp" />
+    <ClCompile Include="C479.cpp" />
+    <ClCompile Include="C489.cpp" />
+    <ClCompile Include="C499.cpp" />
+    <ClCompile Include="C515.cpp" />
+    <ClCompile Include="C519.cpp" />
+    <ClCompile Include="C617.cpp" />
+    <ClCompile Include="C621.cpp" />
+    <ClCompile Include="C631.cpp" />
+    <ClCompile Include="C659.cpp" />
+    <ClCompile Include="C675.cpp" />
+    <ClCompile Include="A682.cpp" />
+    <ClCompile Include="C706.cpp" />
+    <ClCompile Include="C734.cpp" />
+    <ClCompile Include="C738.cpp" />
+    <ClCompile Include="C740.cpp" />
+    <ClCompile Include="D675NOTCOMPLETE.cpp" />
+    <ClCompile Include="C707.cpp" />
+    <ClCompile Include="C711.cpp" />
+    <ClCompile Include="C712.cpp" />
+    <ClCompile Include="C714.cpp" />
+    <ClCompile Include="C721NOTCOMPLETE.cpp" />
+    <ClCompile Include="C731NOTCOMPLETE.cpp" />
+    <ClCompile Include="C732.cpp" />
+    <ClCompile Include="C733NOTCOMPLETE.cpp" />
+    <ClCompile Include="D545.cpp" />
+    <ClCompile Include="A707.cpp" />
+    <ClCompile Include="D659.cpp" />
+    <ClCompile Include="D721NOTCOMPLETE.cpp" />
+    <ClCompile Include="E101149.cpp" />
+    <ClCompile Include="fun.cpp" />
+    <ClCompile Include="I101149.cpp" />
+    <ClCompile Include="RMQ.cpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="D735.cpp" />
+    <ClCompile Include="C735.cpp" />
+    <ClCompile Include="A389.cpp" />
+    <ClCompile Include="B389.cpp" />
+    <ClCompile Include="C389.cpp" />
   </ItemGroup>
 </Project>
