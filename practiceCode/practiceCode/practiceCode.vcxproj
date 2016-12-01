@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="A101149.cpp" />
     <ClCompile Include="A389.cpp" />
+    <ClCompile Include="A507.cpp" />
     <ClCompile Include="A615.cpp" />
     <ClCompile Include="A617.cpp" />
     <ClCompile Include="A621.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="A716.cpp" />
     <ClCompile Include="A719.cpp" />
     <ClCompile Include="B499.cpp" />
+    <ClCompile Include="B507.cpp" />
     <ClCompile Include="B508.cpp" />
     <ClCompile Include="B509.cpp" />
     <ClCompile Include="B519.cpp" />
@@ -247,6 +249,7 @@
     <ClCompile Include="E101149.cpp" />
     <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
+    <ClCompile Include="MaxFlowFF.cpp" />
     <ClCompile Include="RMQ.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
