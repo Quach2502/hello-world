@@ -219,6 +219,7 @@
     <ClCompile Include="C479.cpp" />
     <ClCompile Include="C489.cpp" />
     <ClCompile Include="C499.cpp" />
+    <ClCompile Include="C507.cpp" />
     <ClCompile Include="C515.cpp" />
     <ClCompile Include="C519.cpp" />
     <ClCompile Include="C617.cpp" />
