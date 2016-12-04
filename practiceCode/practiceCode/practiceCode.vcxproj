@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140_xp</PlatformToolset>
+    <PlatformToolset>v110_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -128,6 +128,7 @@
     <ClCompile Include="A712.cpp" />
     <ClCompile Include="A714.cpp" />
     <ClCompile Include="A721.cpp" />
+    <ClCompile Include="A723.cpp" />
     <ClCompile Include="A731.cpp" />
     <ClCompile Include="A732.cpp" />
     <ClCompile Include="A733.cpp" />
@@ -207,6 +208,7 @@
     <ClCompile Include="B712.cpp" />
     <ClCompile Include="B714.cpp" />
     <ClCompile Include="B721.cpp" />
+    <ClCompile Include="B723.cpp" />
     <ClCompile Include="B731.cpp" />
     <ClCompile Include="B732.cpp" />
     <ClCompile Include="B733.cpp" />
@@ -229,6 +231,7 @@
     <ClCompile Include="C675.cpp" />
     <ClCompile Include="A682.cpp" />
     <ClCompile Include="C706.cpp" />
+    <ClCompile Include="C723.cpp" />
     <ClCompile Include="C734.cpp" />
     <ClCompile Include="C735.cpp" />
     <ClCompile Include="D735.cpp" />

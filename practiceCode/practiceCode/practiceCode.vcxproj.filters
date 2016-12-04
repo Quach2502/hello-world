@@ -144,5 +144,8 @@
     <ClCompile Include="B507.cpp" />
     <ClCompile Include="MaxFlowFF.cpp" />
     <ClCompile Include="C507.cpp" />
+    <ClCompile Include="A723.cpp" />
+    <ClCompile Include="B723.cpp" />
+    <ClCompile Include="C723.cpp" />
   </ItemGroup>
 </Project>
