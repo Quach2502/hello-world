@@ -10,7 +10,7 @@
 //{
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
-<<<<<<< HEAD
+
 //	int n(0),m;std::cin>>n>>m;
 //	int max = 1;
 //	std::vector<ll> input;
@@ -28,7 +28,6 @@
 //		std::cout << input[i] << " ";
 //	}
 //  system("pause");
-=======
 //	ll n(0),m;std::cin>>n>>m;
 //	int max = 1;
 //	std::vector<ll> input;
@@ -51,5 +50,4 @@
 //			i++;
 //		n--;
 //	}
->>>>>>> 80dae92281fc3b021f53e2b6dc509778976134a3
 //}
