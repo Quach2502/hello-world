@@ -147,5 +147,8 @@
     <ClCompile Include="A723.cpp" />
     <ClCompile Include="B723.cpp" />
     <ClCompile Include="C723.cpp" />
+    <ClCompile Include="A742.cpp" />
+    <ClCompile Include="B742.cpp" />
+    <ClCompile Include="C742.cpp" />
   </ItemGroup>
 </Project>
