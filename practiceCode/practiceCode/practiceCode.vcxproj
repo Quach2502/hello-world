@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v140_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -256,6 +256,7 @@
     <ClCompile Include="E101149.cpp" />
     <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
+    <ClCompile Include="lcm.cpp" />
     <ClCompile Include="MaxFlowFF.cpp" />
     <ClCompile Include="RMQ.cpp" />
     <ClCompile Include="template.cpp" />

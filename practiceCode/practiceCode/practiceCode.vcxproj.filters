@@ -150,5 +150,6 @@
     <ClCompile Include="A742.cpp" />
     <ClCompile Include="B742.cpp" />
     <ClCompile Include="C742.cpp" />
+    <ClCompile Include="lcm.cpp" />
   </ItemGroup>
 </Project>

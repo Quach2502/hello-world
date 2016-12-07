@@ -8,6 +8,18 @@
 //typedef long long ll;
 //std::unordered_set<int> radius;
 //int input[101];
+//int gcd(int a, int b)
+//{
+//	if (a < b) return gcd(b, a);
+//	int remain = a%b;
+//	if (remain == 0) return b;
+//	else
+//		return gcd(b, remain);
+//}
+//int lcm(int a, int b)
+//{
+//	return (a*b) / gcd(a, b);
+//}
 //bool checkcycle(int start,int n)
 //{
 //	int t(1);
@@ -16,7 +28,10 @@
 //	{
 //		if(temp == input[start]) 
 //		{
-//			radius.insert(t);
+//			if (t % 2 == 0)
+//				radius.insert(t / 2);
+//			else
+//				radius.insert(t);
 //			return true;
 //		}
 //
@@ -48,7 +63,7 @@
 //		std::cin >> a;
 //		input[i] = a;
 //	}
-//	int output = -1;
+//	ll output = -1;
 //	bool flagR(true);
 //	for(int i =1 ; i <= n && flagR;i++)
 //	{
@@ -58,32 +73,18 @@
 //	else
 //	{
 //		int total(1);
-//		for(auto i = radius.begin();i!=radius.end();i++)
+//		for (auto i = radius.begin(); i != radius.end(); i++)
 //			total *= *i;
-//	for(int t =1;t<=total;t++)
-//	{
-//		bool flag = true;
-//		bool check[101];
-//		std::fill(check,check+101,false);
-//		for(int i =1;i<=n && flag;i++)
+//		std::vector<int> solve;
+//		for (auto i = radius.begin(); i != radius.end(); i++)
 //		{
-//			if(!check[i])
-//				{
-//					int y = go(i,t);
-//					if( i == go(y,t))
-//					{
-//						check[i] = true; check[y] = true;
-//					}
-//					else
-//						flag =false;
-//				}
+//			solve.push_back(*i);
 //		}
-//		if(flag) 
-//			{
-//				output =t; 
-//				break;
-//			}
-//	}
-//	std::cout<<output;
+//		output = solve[0];
+//		for (int i = 1; i < solve.size(); i++)
+//		{
+//			output = lcm(output, solve[i]);
+//		}
+//		std::cout << output;
 //	}
 //}

@@ -7,15 +7,17 @@
 //#include <unordered_set>
 //typedef long long ll;
 //int count[100001] = {};
+//bool visit[100001];
 //void main()
 //{
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<int,int> dict;
 //	std::unordered_set<int> s;
 //	int n(0),x;std::cin>>n>>x;
+//	std::fill(visit, visit + 100001, false);
 //	int max = 1;
 //	std::vector<int> input;
-//	int output(0);
+//	ll output(0);
 //	bool flag = true;
 //	for (int i = 0; i < n; i++)
 //	{
@@ -23,27 +25,33 @@
 //		std::cin >> a;
 //		input.push_back(a);
 //		count[a]++;
-//		dict[a]++;
+//		s.insert(a);
 //	}
 //	if(x==0)
 //	{
-//    	for ( int i = 0; i < n; i++)
+//    	for (auto i = s.begin(); i != s.end(); i++)
 //    	{
-//    		output += count[i]*(count[i]-1)/2;
+//				output += 1ll *count[*i] * (count[*i] - 1) / 2;
 //    	}
 //    	std::cout<<output;
 //	}
 //	else
 //	{
+//
 //	    for (int i = 0; i < n; i++)
 //    	{
-//    		if(dict.find(x^input[i]) != dict.end())
-//    			{
-//    				output+= dict[x^input[i]];
-//    			}
+//			if (!visit[input[i]])
+//			{
+//				if (s.find(x^input[i]) != s.end())
+//				{
+//					output +=1ll* count[x^input[i]]*count[input[i]];
+//					visit[x^input[i]] = true;
+//					visit[input[i]] = true;
+//				}
+//			}
 //    	
 //    	}
-//    	std::cout<<output/2;
+//    	std::cout<<output;
 //	}
 //	
 //}
