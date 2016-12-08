@@ -10,7 +10,7 @@
 //{
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
-//	ll n(0);std::cin>>n;
+//	int n(0);std::cin>>n;
 //	int max = 1;
 //	std::vector<ll> input;
 //	int output;
