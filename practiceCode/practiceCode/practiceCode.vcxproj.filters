@@ -153,5 +153,10 @@
     <ClCompile Include="lcm.cpp" />
     <ClCompile Include="A584.cpp" />
     <ClCompile Include="B548.cpp" />
+    <ClCompile Include="B520.cpp" />
+    <ClCompile Include="C520.cpp" />
+    <ClCompile Include="A651.cpp" />
+    <ClCompile Include="B651.cpp" />
+    <ClCompile Include="C651.cpp" />
   </ItemGroup>
 </Project>
