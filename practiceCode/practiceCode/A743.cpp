@@ -10,21 +10,14 @@
 //{
 //	std::ios::sync_with_stdio(false);
 //	std::unordered_map<std::string, std::string> dict;
-//	int n(0);std::cin>>n;
-//	int max = 1;
-//	std::vector<ll> input;
-//	int output;
-//	bool flag = true;
+//	int n(0),a,b;std::cin>>n>>a>>b;
+//	char first,second;
+//	std::string input;std::cin>>input;
 //	for (int i = 0; i < n; i++)
 //	{
-//		ll a;
-//		std::cin >> a;
-//		input.push_back(a);
+//		if(i+1 == a) first = input[i];
+//		if(i+1 == b) second = input[i];
 //	}
-//	std::sort(input.begin(), input.end());
-//	for (int i = 0; i < n; i++)
-//	{
-//		std::cout << input[i] << " ";
-//	}
-//  system("pause");
+//	if( first == second) std::cout<<0;
+//	else std::cout<<1;
 //}

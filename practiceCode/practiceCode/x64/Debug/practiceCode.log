@@ -1,10 +1,16 @@
-﻿Build started 12/10/2016 6:10:21 PM.
+﻿Build started 12/14/2016 11:09:44 PM.
      1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
      1>ClCompile:
-         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt B520.cpp
+         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt A651.cpp A743.cpp B520.cpp B651.cpp B743.cpp C520.cpp C651.cpp
+         C651.cpp
+         C520.cpp
+         B743.cpp
+         B651.cpp
          B520.cpp
-     1>c:\users\admin\hello-world\practicecode\practicecode\b520.cpp(39): warning C4715: 'minops' : not all control paths return a value
+         A743.cpp
+         A651.cpp
+         Generating Code...
        Link:
          D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\A101149.obj
          x64\Debug\A389.obj
@@ -16,6 +22,7 @@
          x64\Debug\A625.obj
          x64\Debug\A629.obj
          x64\Debug\A631.obj
+         x64\Debug\A651.obj
          x64\Debug\A659.obj
          x64\Debug\A675.obj
          x64\Debug\A677.obj
@@ -34,6 +41,7 @@
          x64\Debug\A740.obj
          x64\Debug\A735.obj
          x64\Debug\A742.obj
+         x64\Debug\A743.obj
          x64\Debug\B101149.obj
          x64\Debug\B118.obj
          x64\Debug\A136.obj
@@ -96,6 +104,7 @@
          x64\Debug\B625.obj
          x64\Debug\B629.obj
          x64\Debug\B631.obj
+         x64\Debug\B651.obj
          x64\Debug\B659.obj
          x64\Debug\B675.obj
          x64\Debug\B677.obj
@@ -117,6 +126,7 @@
          x64\Debug\B738.obj
          x64\Debug\B740.obj
          x64\Debug\B742.obj
+         x64\Debug\B743.obj
          x64\Debug\C101149.obj
          x64\Debug\C389.obj
          x64\Debug\C479.obj
@@ -125,9 +135,11 @@
          x64\Debug\C507.obj
          x64\Debug\C515.obj
          x64\Debug\C519.obj
+         x64\Debug\C520.obj
          x64\Debug\C617.obj
          x64\Debug\C621.obj
          x64\Debug\C631.obj
+         x64\Debug\C651.obj
          x64\Debug\C659.obj
          x64\Debug\C675.obj
          x64\Debug\A682.obj
@@ -164,4 +176,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:08.59
+Time Elapsed 00:00:13.82
