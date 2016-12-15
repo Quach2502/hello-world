@@ -159,5 +159,7 @@
     <ClCompile Include="B651.cpp" />
     <ClCompile Include="C651NOTCOMPLETE.cpp" />
     <ClCompile Include="C743.cpp" />
+    <ClCompile Include="A743.cpp" />
+    <ClCompile Include="B743.cpp" />
   </ItemGroup>
 </Project>
