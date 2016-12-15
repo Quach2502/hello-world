@@ -244,6 +244,7 @@
     <ClCompile Include="C734.cpp" />
     <ClCompile Include="C735.cpp" />
     <ClCompile Include="C742.cpp" />
+    <ClCompile Include="C743.cpp" />
     <ClCompile Include="D735.cpp" />
     <ClCompile Include="C738.cpp" />
     <ClCompile Include="C740.cpp" />
