@@ -140,6 +140,8 @@
     <ClCompile Include="A735.cpp" />
     <ClCompile Include="A742.cpp" />
     <ClCompile Include="A743.cpp" />
+    <ClCompile Include="A745.cpp" />
+    <ClCompile Include="A746.cpp" />
     <ClCompile Include="B101149.cpp" />
     <ClCompile Include="B118.cpp" />
     <ClCompile Include="A136.cpp" />
@@ -225,6 +227,8 @@
     <ClCompile Include="B740.cpp" />
     <ClCompile Include="B742.cpp" />
     <ClCompile Include="B743.cpp" />
+    <ClCompile Include="B745.cpp" />
+    <ClCompile Include="B746.cpp" />
     <ClCompile Include="C101149.cpp" />
     <ClCompile Include="C389.cpp" />
     <ClCompile Include="C479.cpp" />
@@ -237,7 +241,7 @@
     <ClCompile Include="C617.cpp" />
     <ClCompile Include="C621.cpp" />
     <ClCompile Include="C631.cpp" />
-    <ClCompile Include="C651NOTCOMPLETE.cpp" />
+    <ClCompile Include="C651.cpp" />
     <ClCompile Include="C659.cpp" />
     <ClCompile Include="C675.cpp" />
     <ClCompile Include="A682.cpp" />
@@ -247,6 +251,8 @@
     <ClCompile Include="C735.cpp" />
     <ClCompile Include="C742.cpp" />
     <ClCompile Include="C743.cpp" />
+    <ClCompile Include="C745.cpp" />
+    <ClCompile Include="C746.cpp" />
     <ClCompile Include="D735.cpp" />
     <ClCompile Include="C738.cpp" />
     <ClCompile Include="C740.cpp" />
@@ -263,7 +269,9 @@
     <ClCompile Include="A707.cpp" />
     <ClCompile Include="D659.cpp" />
     <ClCompile Include="D721NOTCOMPLETE.cpp" />
+    <ClCompile Include="D746.cpp" />
     <ClCompile Include="E101149.cpp" />
+    <ClCompile Include="E746.cpp" />
     <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
     <ClCompile Include="lcm.cpp" />

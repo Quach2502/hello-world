@@ -157,9 +157,17 @@
     <ClCompile Include="C520.cpp" />
     <ClCompile Include="A651.cpp" />
     <ClCompile Include="B651.cpp" />
-    <ClCompile Include="C651NOTCOMPLETE.cpp" />
     <ClCompile Include="C743.cpp" />
     <ClCompile Include="A743.cpp" />
     <ClCompile Include="B743.cpp" />
+    <ClCompile Include="C651.cpp" />
+    <ClCompile Include="A745.cpp" />
+    <ClCompile Include="B745.cpp" />
+    <ClCompile Include="C745.cpp" />
+    <ClCompile Include="A746.cpp" />
+    <ClCompile Include="B746.cpp" />
+    <ClCompile Include="C746.cpp" />
+    <ClCompile Include="D746.cpp" />
+    <ClCompile Include="E746.cpp" />
   </ItemGroup>
 </Project>
