@@ -173,5 +173,9 @@
     <ClCompile Include="B747.cpp" />
     <ClCompile Include="C747.cpp" />
     <ClCompile Include="D747.cpp" />
+    <ClCompile Include="A749.cpp" />
+    <ClCompile Include="B749.cpp" />
+    <ClCompile Include="C749.cpp" />
+    <ClCompile Include="D749.cpp" />
   </ItemGroup>
 </Project>
