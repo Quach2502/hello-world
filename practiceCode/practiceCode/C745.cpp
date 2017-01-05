@@ -5,151 +5,105 @@
 //#include <string>
 //#include <unordered_map>
 //#include <unordered_set>
-//typedef long long ll;
-//int parent[1001];
-//int rank[1001];
-//int set[1001];
-//bool gov[1001];
-//int graph[1001][1001] ={};
-//int find(int x)// find the representation of the set containing x
-//{
-//	if (parent[x] == x)
-//		return x;
-//	else
-//	{
-//		parent[x] = find(parent[x]);
-//		return parent[x];
-//	}
-//}
-//void makeSet(int size) // make all number a 1-element set
-//{
-//	for (int i = 1; i <= size; i++)
-//	{
-//		if (set[i] != -1)
-//		{
-//			parent[i] = i;
-//			rank[i] = 0;
-//		}
-// 	}
-//}
+//using namespace std;
+//#define FOR(i,a,b) for (long long i = (a); i <= (b); i++)
+//#define FORD(i,a,b) for (long long i = (a); i >= (b); i--)
+//#define REP(i,a) FOR(i,0,(long long)(a)-1)
+//#define reset(a,b) memset(a,b,sizeof(a))
+//#define BUG(x) cout << #x << " = " << x << endl
+//#define PR(x,a,b) {cout << #x << " = "; FOR (_,a,b) cout << x[_] << ' '; cout << endl;}
+//#define CON(x) {cout << #x << " = "; for(auto i:x) cout << i << ' '; cout << endl;}
+//#define mod 1000000007
+//#define pi acos(-1)
+//#define eps 0.00000001
+//#define pb push_back
+//#define inf INT_MAX
+//#define mp make_pair
+//#define sqr(x) (x) * (x)
+//#define ll long long
+//#define _1 first
+//#define _2 second
 //
-//void union_merge(int x, int y) // merge the set containing x and y
+//int n,m,k;
+//vector<int> gov;
+//bool visit[1001];
+//vector<vector<int>> g;
+//int graph[1001][1001];
+//ll res(0);
+//int ma(-1);
+//void dfs(int val,int it)
 //{
-//	int xRoot = find(x);
-//	int yRoot = find(y);
-//	if(!gov[xRoot] && !gov[yRoot])
+//	g[it].pb(val);
+//	visit[val] = true;
+//	FOR(i,1,n)
 //	{
-//		if (rank[xRoot] == rank[yRoot])
+//		if(!visit[i]&& graph[val][i] == 1)
 //		{
-//			parent[yRoot] = xRoot;
-//			rank[xRoot]++;
-//		}
-//		else
-//		{
-//			if (rank[xRoot] > rank[yRoot])
-//			{
-//				parent[yRoot] = xRoot;
-//			}
-//			else
-//			{
-//				parent[xRoot] = yRoot;
-//			}
-//		}
-//	}
-//	else
-//	{
-//		if(gov[xRoot])
-//		{
-//			parent[yRoot] = xRoot;
-//			if (rank[xRoot] == rank[yRoot])
-//			{
-//				rank[xRoot]++;
-//			}
-//			else
-//			{
-//				if (rank[xRoot] < rank[yRoot])
-//				{
-//					rank[xRoot] = rank[yRoot];
-//				}
-//			}
-//		}
-//		else
-//		{
-//			parent[xRoot] = yRoot;
-//			if (rank[xRoot] == rank[yRoot])
-//			{
-//				rank[yRoot]++;
-//			}
-//			else
-//			{
-//				if (rank[yRoot] < rank[xRoot])
-//				{
-//					rank[yRoot] = rank[xRoot];
-//				}
-//			}
+//			dfs(i,it);
 //		}
 //	}
 //}
-//
-//
-//bool check(int x, int y) // check whether x and y are in the same set
+//void aug(vector<int> v)
 //{
-//	int xRoot = find(x);
-//	int yRoot = find(y);
-//	if (xRoot == yRoot)
-//		return true;
-//	else
-//		return false;
+//	int s = int(v.size());
+//	ll ex(0);
+//	REP(i,v.size())
+//	{
+//		REP(j,v.size())
+//		{
+//			if(graph[v[i]][v[j]] == 1)
+//				ex++;
+//		}
+//	}
+//	ex = ex/2;
+//	res += s*(s-1)/2 - ex;
+//	ma = max(s,ma);
 //}
 //
-//void main()
-//{
-//	std::fill(gov,gov+1001,false);
-//	std::ios::sync_with_stdio(false);
-//	int n(0),m,k;std::cin>>n>>m>>k;
-//	makeSet(n);
-//	for(int i=1;i<=n;i++)
-//	{
-//		for(int j=1;j<=n;j++)
-//		{
-//			graph[i][j] = 0;
-//		}
-//	}
-//	int output(0);
-//	for(int i =0;i<k;i++)
-//	{
-//		int a; std::cin>>a;
-//		gov[a] = true;
-//	}
-//	for(int i =0;i<m;i++)
-//	{
-//		int a,b; std::cin>>a>>b;
-//		union_merge(a,b);
-//		graph[a][b] = 1; graph[b][a] = 1;
-//	}
-//	for(int i=1;i<=n;i++)
-//	{
-//		for(int j=1;j<=n;j++)
-//		{
-//			if(graph[i][j] != 0)
-//			{
-//				if(find(i) == find(j))
-//				{
-//					union_merge(i,j);
-//					graph[i][j] = 1;graph[j][i] = 1;
-//					output++;
-//				}
-//				else
-//				{
-//					if(!(gov[find(i)] && gov[find(j)]))
-//					{
-//						union_merge(i,j);
-//						graph[i][j] = 1;graph[j][i] = 1;
-//						output++;
-//					}
-//				}
-//			}
-//		}
-//	}
-//	std::cout<<output;
+//int main() {
+//  ios::sync_with_stdio(false);
+//  cin >> n >>m>>k ;
+//  ll temp(k);
+//  while(temp--)
+//  {
+//	  int g;cin>>g;gov.pb(g);
+//  }
+//  g.resize(k);
+//  while(m--)
+//  {
+//	  int u,v; cin>>u>>v;
+//	  graph[u][v] = 1; graph[v][u] = 1;
+//  }
+//  int cnt(0);
+//  REP(i,gov.size())
+//  {
+//	  dfs(gov[i],cnt);
+//	  cnt++;
+//  }
+//  REP(i,g.size())
+//  {
+//      
+//	  aug(g[i]);
+//  }
+//  vector<int> remain;
+//  FOR(i,1,n)
+//  {
+//	  if(!visit[i])
+//		  remain.pb(i);
+//  }
+//  ll ex(0);
+//  ll s = ll(remain.size());
+//  REP(i,remain.size())
+//  {
+//	  REP(j,remain.size())
+//	  {
+//		  if(graph[remain[i]][remain[j]] == 1)
+//			ex++;
+//	  }
+//  }
+//  
+//  ex = ex/2; res += s*(s-1)/2 - ex;
+//  res += s * ma;
+//  cout<<res;
+//
 //}

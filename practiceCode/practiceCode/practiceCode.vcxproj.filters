@@ -122,10 +122,7 @@
     <ClCompile Include="C711.cpp" />
     <ClCompile Include="C712.cpp" />
     <ClCompile Include="C714.cpp" />
-    <ClCompile Include="C721NOTCOMPLETE.cpp" />
-    <ClCompile Include="C731NOTCOMPLETE.cpp" />
     <ClCompile Include="C732.cpp" />
-    <ClCompile Include="C733NOTCOMPLETE.cpp" />
     <ClCompile Include="D545.cpp" />
     <ClCompile Include="A707.cpp" />
     <ClCompile Include="D659.cpp" />
@@ -163,7 +160,6 @@
     <ClCompile Include="C651.cpp" />
     <ClCompile Include="A745.cpp" />
     <ClCompile Include="B745.cpp" />
-    <ClCompile Include="C745.cpp" />
     <ClCompile Include="A746.cpp" />
     <ClCompile Include="B746.cpp" />
     <ClCompile Include="C746.cpp" />
@@ -177,5 +173,21 @@
     <ClCompile Include="B749.cpp" />
     <ClCompile Include="C749.cpp" />
     <ClCompile Include="D749.cpp" />
+    <ClCompile Include="A701.cpp" />
+    <ClCompile Include="B701.cpp" />
+    <ClCompile Include="C701.cpp" />
+    <ClCompile Include="KruskalMST.cpp" />
+    <ClCompile Include="A752.cpp" />
+    <ClCompile Include="B752.cpp" />
+    <ClCompile Include="C752.cpp" />
+    <ClCompile Include="D752.cpp" />
+    <ClCompile Include="A750.cpp" />
+    <ClCompile Include="B750.cpp" />
+    <ClCompile Include="C750.cpp" />
+    <ClCompile Include="D750.cpp" />
+    <ClCompile Include="C721.cpp" />
+    <ClCompile Include="C731.cpp" />
+    <ClCompile Include="C733.cpp" />
+    <ClCompile Include="C745.cpp" />
   </ItemGroup>
 </Project>

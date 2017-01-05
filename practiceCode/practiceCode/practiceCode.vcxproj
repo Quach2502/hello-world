@@ -125,6 +125,7 @@
     <ClCompile Include="A675.cpp" />
     <ClCompile Include="A677.cpp" />
     <ClCompile Include="A688.cpp" />
+    <ClCompile Include="A701.cpp" />
     <ClCompile Include="A706.cpp" />
     <ClCompile Include="A711.cpp" />
     <ClCompile Include="A712.cpp" />
@@ -144,6 +145,8 @@
     <ClCompile Include="A746.cpp" />
     <ClCompile Include="A747.cpp" />
     <ClCompile Include="A749.cpp" />
+    <ClCompile Include="A750.cpp" />
+    <ClCompile Include="A752.cpp" />
     <ClCompile Include="B101149.cpp" />
     <ClCompile Include="B118.cpp" />
     <ClCompile Include="A136.cpp" />
@@ -213,6 +216,7 @@
     <ClCompile Include="B679.cpp" />
     <ClCompile Include="B682.cpp" />
     <ClCompile Include="B688.cpp" />
+    <ClCompile Include="B701.cpp" />
     <ClCompile Include="B706.cpp" />
     <ClCompile Include="B707.cpp" />
     <ClCompile Include="B711.cpp" />
@@ -233,6 +237,8 @@
     <ClCompile Include="B746.cpp" />
     <ClCompile Include="B747.cpp" />
     <ClCompile Include="B749.cpp" />
+    <ClCompile Include="B750.cpp" />
+    <ClCompile Include="B752.cpp" />
     <ClCompile Include="C101149.cpp" />
     <ClCompile Include="C389.cpp" />
     <ClCompile Include="C479.cpp" />
@@ -249,6 +255,7 @@
     <ClCompile Include="C659.cpp" />
     <ClCompile Include="C675.cpp" />
     <ClCompile Include="A682.cpp" />
+    <ClCompile Include="C701.cpp" />
     <ClCompile Include="C706.cpp" />
     <ClCompile Include="C723.cpp" />
     <ClCompile Include="C734.cpp" />
@@ -259,6 +266,8 @@
     <ClCompile Include="C746.cpp" />
     <ClCompile Include="C747.cpp" />
     <ClCompile Include="C749.cpp" />
+    <ClCompile Include="C750.cpp" />
+    <ClCompile Include="C752.cpp" />
     <ClCompile Include="D735.cpp" />
     <ClCompile Include="C738.cpp" />
     <ClCompile Include="C740.cpp" />
@@ -267,10 +276,10 @@
     <ClCompile Include="C711.cpp" />
     <ClCompile Include="C712.cpp" />
     <ClCompile Include="C714.cpp" />
-    <ClCompile Include="C721NOTCOMPLETE.cpp" />
-    <ClCompile Include="C731NOTCOMPLETE.cpp" />
+    <ClCompile Include="C721.cpp" />
+    <ClCompile Include="C731.cpp" />
     <ClCompile Include="C732.cpp" />
-    <ClCompile Include="C733NOTCOMPLETE.cpp" />
+    <ClCompile Include="C733.cpp" />
     <ClCompile Include="D545.cpp" />
     <ClCompile Include="A707.cpp" />
     <ClCompile Include="D659.cpp" />
@@ -278,10 +287,13 @@
     <ClCompile Include="D746.cpp" />
     <ClCompile Include="D747.cpp" />
     <ClCompile Include="D749.cpp" />
+    <ClCompile Include="D750.cpp" />
+    <ClCompile Include="D752.cpp" />
     <ClCompile Include="E101149.cpp" />
     <ClCompile Include="E746.cpp" />
     <ClCompile Include="fun.cpp" />
     <ClCompile Include="I101149.cpp" />
+    <ClCompile Include="KruskalMST.cpp" />
     <ClCompile Include="lcm.cpp" />
     <ClCompile Include="MaxFlowFF.cpp" />
     <ClCompile Include="RMQ.cpp" />

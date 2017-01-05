@@ -1,11 +1,9 @@
-﻿Build started 12/20/2016 2:01:36 AM.
+﻿Build started 1/1/2017 6:29:07 PM.
      1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
      1>ClCompile:
-         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt C749.cpp D749.cpp
-         D749.cpp
-         C749.cpp
-         Generating Code...
+         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt C701.cpp
+         C701.cpp
        Link:
          D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\A101149.obj
          x64\Debug\A389.obj
@@ -22,6 +20,7 @@
          x64\Debug\A675.obj
          x64\Debug\A677.obj
          x64\Debug\A688.obj
+         x64\Debug\A701.obj
          x64\Debug\A706.obj
          x64\Debug\A711.obj
          x64\Debug\A712.obj
@@ -41,6 +40,8 @@
          x64\Debug\A746.obj
          x64\Debug\A747.obj
          x64\Debug\A749.obj
+         x64\Debug\A750.obj
+         x64\Debug\A752.obj
          x64\Debug\B101149.obj
          x64\Debug\B118.obj
          x64\Debug\A136.obj
@@ -110,6 +111,7 @@
          x64\Debug\B679.obj
          x64\Debug\B682.obj
          x64\Debug\B688.obj
+         x64\Debug\B701.obj
          x64\Debug\B706.obj
          x64\Debug\B707.obj
          x64\Debug\B711.obj
@@ -130,6 +132,8 @@
          x64\Debug\B746.obj
          x64\Debug\B747.obj
          x64\Debug\B749.obj
+         x64\Debug\B750.obj
+         x64\Debug\B752.obj
          x64\Debug\C101149.obj
          x64\Debug\C389.obj
          x64\Debug\C479.obj
@@ -146,16 +150,19 @@
          x64\Debug\C659.obj
          x64\Debug\C675.obj
          x64\Debug\A682.obj
+         x64\Debug\C701.obj
          x64\Debug\C706.obj
          x64\Debug\C723.obj
          x64\Debug\C734.obj
          x64\Debug\C735.obj
          x64\Debug\C742.obj
          x64\Debug\C743.obj
-         x64\Debug\C745.obj
+         x64\Debug\C745NOTCOMPLETE.obj
          x64\Debug\C746.obj
          x64\Debug\C747.obj
          x64\Debug\C749.obj
+         x64\Debug\C750.obj
+         x64\Debug\C752.obj
          x64\Debug\D735.obj
          x64\Debug\C738.obj
          x64\Debug\C740.obj
@@ -175,10 +182,13 @@
          x64\Debug\D746.obj
          x64\Debug\D747.obj
          x64\Debug\D749.obj
+         x64\Debug\D750.obj
+         x64\Debug\D752.obj
          x64\Debug\E101149.obj
          x64\Debug\E746.obj
          x64\Debug\fun.obj
          x64\Debug\I101149.obj
+         x64\Debug\KruskalMST.obj
          x64\Debug\lcm.obj
          x64\Debug\MaxFlowFF.obj
          x64\Debug\RMQ.obj
@@ -188,4 +198,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.66
+Time Elapsed 00:00:06.02
