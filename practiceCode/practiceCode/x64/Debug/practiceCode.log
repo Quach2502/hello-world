@@ -1,13 +1,66 @@
-﻿Build started 1/1/2017 6:29:07 PM.
+﻿Build started 5/4/2017 11:17:31 PM.
      1>Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
      1>ClCompile:
-         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt C701.cpp
-         C701.cpp
+         D:\Special Year\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt A805.cpp B805.cpp C805.cpp
+         C805.cpp
+         B805.cpp
+         A805.cpp
+         Generating Code...
        Link:
-         D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\A101149.obj
+         D:\Special Year\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.lib" /MACHINE:X64 x64\Debug\A664.obj
+         x64\Debug\A765.obj
+         x64\Debug\A767.obj
+         x64\Debug\A768.obj
+         x64\Debug\A776.obj
+         x64\Debug\A777.obj
+         x64\Debug\A779.obj
+         x64\Debug\A782.obj
+         x64\Debug\A785.obj
+         x64\Debug\A787.obj
+         x64\Debug\A791.obj
+         x64\Debug\A796.obj
+         x64\Debug\A797.obj
+         x64\Debug\A798.obj
+         x64\Debug\A801.obj
+         x64\Debug\A805.obj
+         x64\Debug\B765.obj
+         x64\Debug\B767.obj
+         x64\Debug\B768.obj
+         x64\Debug\B776.obj
+         x64\Debug\B777.obj
+         x64\Debug\B779.obj
+         x64\Debug\B782.obj
+         x64\Debug\B785.obj
+         x64\Debug\B787.obj
+         x64\Debug\B791.obj
+         x64\Debug\B796.obj
+         x64\Debug\B797.obj
+         x64\Debug\B798.obj
+         x64\Debug\B801.obj
+         x64\Debug\B805.obj
+         x64\Debug\C456.obj
+         x64\Debug\C765.obj
+         x64\Debug\C776.obj
+         x64\Debug\C777.obj
+         x64\Debug\C779.obj
+         x64\Debug\C782.obj
+         x64\Debug\C785.obj
+         x64\Debug\C787NOTCOMPLETE.obj
+         x64\Debug\C796.obj
+         x64\Debug\C798NOTCOMPLETE.obj
+         x64\Debug\C801.obj
+         x64\Debug\C805.obj
+         x64\Debug\CharacterReg.obj
+         x64\Debug\CountryLeader.obj
+         x64\Debug\D456NOTCOMPLETE.obj
+         x64\Debug\D465.obj
+         x64\Debug\D758NOTCOMPLETE.obj
+         x64\Debug\A101149.obj
          x64\Debug\A389.obj
          x64\Debug\A507.obj
+         x64\Debug\A534.obj
+         x64\Debug\A570.obj
          x64\Debug\A584.obj
          x64\Debug\A615.obj
          x64\Debug\A617.obj
@@ -20,7 +73,21 @@
          x64\Debug\A675.obj
          x64\Debug\A677.obj
          x64\Debug\A688.obj
+         x64\Debug\A758.obj
+         x64\Debug\A761.obj
+         x64\Debug\A762.obj
+         x64\Debug\A764.obj
+         x64\Debug\A766.obj
+         x64\Debug\B758.obj
+         x64\Debug\B761.obj
+         x64\Debug\B762.obj
+         x64\Debug\B764.obj
+         x64\Debug\B766.obj
+         x64\Debug\C467.obj
+         x64\Debug\C545.obj
+         x64\Debug\C699.obj
          x64\Debug\A701.obj
+         x64\Debug\A702.obj
          x64\Debug\A706.obj
          x64\Debug\A711.obj
          x64\Debug\A712.obj
@@ -42,6 +109,9 @@
          x64\Debug\A749.obj
          x64\Debug\A750.obj
          x64\Debug\A752.obj
+         x64\Debug\A754.obj
+         x64\Debug\A755.obj
+         x64\Debug\A757.obj
          x64\Debug\B101149.obj
          x64\Debug\B118.obj
          x64\Debug\A136.obj
@@ -75,6 +145,7 @@
          x64\Debug\B459.obj
          x64\Debug\B467.obj
          x64\Debug\B474.obj
+         x64\Debug\B476.obj
          x64\Debug\B478.obj
          x64\Debug\B489NOTCOMPLETE.obj
          x64\Debug\B492.obj
@@ -94,8 +165,10 @@
          x64\Debug\B509.obj
          x64\Debug\B519.obj
          x64\Debug\B520.obj
+         x64\Debug\B534.obj
          x64\Debug\B545.obj
          x64\Debug\B548.obj
+         x64\Debug\B570.obj
          x64\Debug\B580.obj
          x64\Debug\B581.obj
          x64\Debug\B615.obj
@@ -134,17 +207,30 @@
          x64\Debug\B749.obj
          x64\Debug\B750.obj
          x64\Debug\B752.obj
+         x64\Debug\B754.obj
+         x64\Debug\B755.obj
+         x64\Debug\B757.obj
+         x64\Debug\Bronze2.obj
+         x64\Debug\Bronze1.obj
+         x64\Debug\Bronze3.obj
          x64\Debug\C101149.obj
+         x64\Debug\C276.obj
          x64\Debug\C389.obj
+         x64\Debug\C431.obj
+         x64\Debug\C466.obj
          x64\Debug\C479.obj
          x64\Debug\C489.obj
          x64\Debug\C499.obj
+         x64\Debug\C505.obj
          x64\Debug\C507.obj
          x64\Debug\C515.obj
          x64\Debug\C519.obj
          x64\Debug\C520.obj
+         x64\Debug\C534.obj
+         x64\Debug\C570.obj
          x64\Debug\C617.obj
          x64\Debug\C621.obj
+         x64\Debug\C629.obj
          x64\Debug\C631.obj
          x64\Debug\C651.obj
          x64\Debug\C659.obj
@@ -157,12 +243,22 @@
          x64\Debug\C735.obj
          x64\Debug\C742.obj
          x64\Debug\C743.obj
-         x64\Debug\C745NOTCOMPLETE.obj
+         x64\Debug\C745.obj
          x64\Debug\C746.obj
          x64\Debug\C747.obj
          x64\Debug\C749.obj
          x64\Debug\C750.obj
          x64\Debug\C752.obj
+         x64\Debug\C755.obj
+         x64\Debug\C757.obj
+         x64\Debug\C758NOTCOMPLETE.obj
+         x64\Debug\C761.obj
+         x64\Debug\C762NOTCOMPLETE.obj
+         x64\Debug\C764.obj
+         x64\Debug\C766.obj
+         x64\Debug\Creation.obj
+         x64\Debug\D466.obj
+         x64\Debug\D570NOTCOMPLETE.obj
          x64\Debug\D735.obj
          x64\Debug\C738.obj
          x64\Debug\C740.obj
@@ -171,10 +267,10 @@
          x64\Debug\C711.obj
          x64\Debug\C712.obj
          x64\Debug\C714.obj
-         x64\Debug\C721NOTCOMPLETE.obj
-         x64\Debug\C731NOTCOMPLETE.obj
+         x64\Debug\C721.obj
+         x64\Debug\C731.obj
          x64\Debug\C732.obj
-         x64\Debug\C733NOTCOMPLETE.obj
+         x64\Debug\C733.obj
          x64\Debug\D545.obj
          x64\Debug\A707.obj
          x64\Debug\D659.obj
@@ -184,18 +280,43 @@
          x64\Debug\D749.obj
          x64\Debug\D750.obj
          x64\Debug\D752.obj
+         x64\Debug\D754.obj
+         x64\Debug\D755.obj
+         x64\Debug\D765.obj
+         x64\Debug\D777.obj
+         x64\Debug\D779.obj
+         x64\Debug\D785.obj
+         x64\Debug\D796.obj
          x64\Debug\E101149.obj
          x64\Debug\E746.obj
+         x64\Debug\KMP.obj
+         x64\Debug\Maniac.obj
          x64\Debug\fun.obj
          x64\Debug\I101149.obj
          x64\Debug\KruskalMST.obj
+         x64\Debug\Lazy.obj
          x64\Debug\lcm.obj
+         x64\Debug\Matt.obj
          x64\Debug\MaxFlowFF.obj
+         x64\Debug\MaxXor.obj
+         x64\Debug\Pattern.obj
+         x64\Debug\Pie.obj
+         x64\Debug\PieProgress.obj
+         x64\Debug\ReverseKLL.obj
          x64\Debug\RMQ.obj
+         x64\Debug\Round22Q1.obj
+         x64\Debug\Round22Q2.obj
+         x64\Debug\Round22Q3.obj
+         x64\Debug\Round22Q4.obj
+         x64\Debug\ZigZagPrint.obj
+         x64\Debug\SquareOff.obj
+         x64\Debug\Vote.obj
          x64\Debug\template.obj
+         x64\Debug\Trie.obj
+         x64\Debug\Zombie.obj
          practiceCode.vcxproj -> C:\Users\admin\hello-world\practiceCode\x64\Debug\practiceCode.exe
      1>Done Building Project "C:\Users\admin\hello-world\practiceCode\practiceCode\practiceCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.02
+Time Elapsed 00:00:39.23

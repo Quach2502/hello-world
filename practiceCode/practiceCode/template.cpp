@@ -23,11 +23,17 @@
 //#define ll long long
 //#define _1 first
 //#define _2 second
+//#define MOD int(1e9+7)
 //
 //int n;
 //string s;
 //
+//void solve()
+//{
+//	cin >> n >> s;
+//}
+//
 //int main() {
 //  ios::sync_with_stdio(false);
-//  cin >> n >> s;
+//  solve();
 //}
